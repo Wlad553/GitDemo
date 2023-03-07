@@ -53,13 +53,13 @@ class ViewController: UIViewController {
         
         switch gesture.direction {
         case .right:
-            gestureLabel.text = "Right swipe has been recognized"
+            gestureLabel.text = "Right swipe has been recognized!"
         case .left:
-            gestureLabel.text = "Left swipe has been recognized"
+            gestureLabel.text = "Left swipe has been recognized!"
         case .up:
-            gestureLabel.text = "Up swipe has been recognized"
+            gestureLabel.text = "Up swipe has been recognized!"
         case .down:
-            gestureLabel.text = "Down swipe has been recognized"
+            gestureLabel.text = "Down swipe has been recognized!"
         default: return
         }
     }
