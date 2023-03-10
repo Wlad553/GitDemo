@@ -13,9 +13,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         swipeObservers()
         tapObserver()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("View did appear")
     }
     
     func swipeObservers() { // создаем наблюдателя для свайпа в разные стороны
